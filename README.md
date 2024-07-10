@@ -52,6 +52,8 @@ AEM Lk contains two main analysis scripts (*Auto_Sim* and *Auto_Extract*) that f
 This errors are typically caught by AEM Lk and are corrected by either varying the frequency sweep range or removing data points. In the case of removing data points, this only occurs in the  |S21|>1 case and has shown no effect on resonant frequency or quality factor of the simulation. 
 
 The .zip found in this repository contain scripts from the following:
+
 **SonnetLab Toolbox:** https://www.sonnetsoftware.com/support/sonnet-suites/sonnetlab.html
+
 **Intersections:** Douglas Schwarz (2024). Fast and Robust Curve Intersections (https://www.mathworks.com/matlabcentral/fileexchange/11837-fast-and-robust-curve-intersections), MATLAB Central File Exchange. Retrieved July 10, 2024.
 
