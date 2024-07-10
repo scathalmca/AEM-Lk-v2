@@ -29,6 +29,8 @@ In *EM Options* > *Advanced Options*
 ### **How to Use AEM Lk**
 AEM Lk is very simple to use and requires; Sonnet geometry files, Measured resonant frequencies and a input txt file.
 1. Open the AEM Lk app in MATLAB.
+![Uploading 255122604-e65fb3dc-20e8-4830-a4d6-30b5bbd0b54d.png…]()
+
 2. Create a .txt file that contains a list of the **original Sonnet project filenames** and the measured resonant frequencies in the form of the following:
    ![txtfile](https://github.com/scathalmca/AEM-Lk/assets/92909628/22976773-c246-4f27-8f15-710388fc0cf1)
 3. The Sonnet Files list should contain all the Sonnet geometry file names that will be used
