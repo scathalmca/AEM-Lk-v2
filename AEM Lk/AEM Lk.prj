@@ -1,0 +1,181 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1586485740" file="C:\Users\scath\Desktop\Real AEM Lk v2.0 - Copy\AEM Lk.prj" location="C:\Users\scath\Desktop\Real AEM Lk v2.0 - Copy" name="AEM Lk" target="target.mlapps" target-name="Package App">
+    <param.appname>AEM Lk</param.appname>
+    <param.authnamewatermark>Cáthal McAleer</param.authnamewatermark>
+    <param.email>cmcaleer@cp.dias.ie</param.email>
+    <param.company>Dublin Institute for Advanced Studies</param.company>
+    <param.icon>${PROJECT_ROOT}\AEM Lk_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\AEM Lk_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\AEM Lk_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\AEM Lk_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>AEM Lk - Automated Kinetic Inductance Extraction.</param.summary>
+    <param.description>AEM Lk is designed for the automated extraction of a kinetic inductance value (Lk) from a given set of Sonnet Project files and measured resonant frequencies. This app is primarily aimed towards Microwave Kinetic Inductance Detectors but can be used for any resonant structure. 
+For more information on the scripts, please see the GitHub:
+https://github.com/scathalmca/AEM-Lk-v2</param.description>
+    <param.screenshot>C:\Users\scath\Desktop\AEM Logos\AEM Lk Logo.png</param.screenshot>
+    <param.version>2.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>f51997dc-4275-4122-8cbc-fb10fe58176c</param.guid>
+    <unset>
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\AEMLk Scripts\AEM_Lk_Func.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\AEMLk Scripts\Auto_Extract.m</file>
+      <file>${PROJECT_ROOT}\AEMLk Scripts\Auto_Sim.m</file>
+      <file>${PROJECT_ROOT}\AEMLk Scripts\delFileOutput.m</file>
+      <file>${PROJECT_ROOT}\AEMLk Scripts\delFreqSweeps.m</file>
+      <file>${PROJECT_ROOT}\AEMLk Scripts\EndResonators.m</file>
+      <file>${PROJECT_ROOT}\AEMLk Scripts\intersections.m</file>
+      <file>${PROJECT_ROOT}\AEMLk Scripts\Param_Lk.m</file>
+      <file>${PROJECT_ROOT}\AEMLk Scripts\ReadFile.m</file>
+      <file>${PROJECT_ROOT}\AEMLk Scripts\SimCounter.m</file>
+      <file>${PROJECT_ROOT}\v8.0\CreateVariableSweep.m</file>
+      <file>${PROJECT_ROOT}\v8.0\enableFix.m</file>
+      <file>${PROJECT_ROOT}\v8.0\HeatFluxConfiguration.m</file>
+      <file>${PROJECT_ROOT}\v8.0\JXYExport.m</file>
+      <file>${PROJECT_ROOT}\v8.0\JXYPort.m</file>
+      <file>${PROJECT_ROOT}\v8.0\JXYRead.m</file>
+      <file>${PROJECT_ROOT}\v8.0\JXYRequest.m</file>
+      <file>${PROJECT_ROOT}\v8.0\JXYRequestConfiguration.m</file>
+      <file>${PROJECT_ROOT}\v8.0\PatternControlBlock.m</file>
+      <file>${PROJECT_ROOT}\v8.0\PatternControlFile.m</file>
+      <file>${PROJECT_ROOT}\v8.0\PatternElement.m</file>
+      <file>${PROJECT_ROOT}\v8.0\PatternEntry.m</file>
+      <file>${PROJECT_ROOT}\v8.0\PatternParameterBlock.m</file>
+      <file>${PROJECT_ROOT}\v8.0\PatternPort.m</file>
+      <file>${PROJECT_ROOT}\v8.0\PatternRead.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetCallEm.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetCallPatvu.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetCircuitBlock.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetCircuitCapacitor.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetCircuitInductor.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetCircuitNetwork.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetCircuitPhysicalTransmissionLine.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetCircuitProject.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetCircuitResistor.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetCircuitSnp.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetCircuitTransmissionLine.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetClone.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetComponentFileBlock.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetControlBlock.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetDimensionBlock.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetFileOutBlock.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetFileOutLine.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetFrequency.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetFrequencyAbs.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetFrequencyAbsEntry.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetFrequencyAbsFmax.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetFrequencyAbsFmin.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetFrequencyAdaptive.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetFrequencyBlock.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetFrequencyDc.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetFrequencyDcFreq.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetFrequencyEsweep.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetFrequencyExponential.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetFrequencyLinear.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetFrequencyList.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetFrequencyLsweep.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetFrequencyParse.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetFrequencySimple.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetFrequencySingle.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetFrequencyStep.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetFrequencySweep.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryAnisotropic.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryBlock.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryBox.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryBoxDielectricLayer.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryCoCalibratedGroup.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryComponent.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryComponentPort.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryDimension.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryEdgeVia.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryIsotropic.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryMetalType.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryParallelSubsection.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryParameter.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryParameterPointSet.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryPolygon.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryPort.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryReferencePlane.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryReferencePlaneFix.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryReferencePlaneLink.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryReferencePlaneNone.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryTechLayer.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryTopAndBottomMetals.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryVariable.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGeometryVariableOption.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGoal.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGoalFile.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGoalNetwork.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGoalParse.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGoalSetBlock.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetGoalValue.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetHeaderBlock.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetMatlabVersion.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetOptimizationBlock.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetOptimizationBlockOld.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetOptimizationVariable.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetPath.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetProject.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetSpectreRLGCReader.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetStringReadFormat.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetStringWriteFormat.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetSweepSetBlock.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetUnknownBlock.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetVariableBlock.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetVariableDeclaration.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetVariableParameter.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetVariableSweep.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetVariableSweepBlock.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetVariableSweepBlockOld.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetVariableSweepEntry.m</file>
+      <file>${PROJECT_ROOT}\v8.0\SonnetVariableSweepParameter.m</file>
+      <file>${PROJECT_ROOT}\v8.0\temp.xml</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\scath\Desktop" name="Real AEM Lk v2.0 - Copy" optional="false">C:\Users\scath\Desktop\Real AEM Lk v2.0 - Copy</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
