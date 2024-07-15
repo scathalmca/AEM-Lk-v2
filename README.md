@@ -8,6 +8,8 @@ This repository is the updated version of AEM Lk.
 **AEM Lk** automates the extraction of Lk values of MKID pixels for a given set of Sonnet geometry files and measured resonant frequencies using MATLAB, the EM simulation software: Sonnet and the MATLAB Toolbox SonnetLab. This is done by varying the kinetic inductance value (*H/sq) in the Sonnet geometry files and matching the simulated resonance to the measured resonance as close as possible.
 AEM Lk can extract Lk values to an accuracy of +/-0.001 *H/sq. It is important to note as well that the extract Lk values are only estimates and will include effects that influence the resonant frequency of the pixel (i.e. fabrication inaccuracies, dirt on the pixel, etc) 
 
+It is also recommended that AEM run on a PC with 12 or more threads as CPUs below this have not been tested and may end up in a simulation loop due to slow simulation time.
+
 **Important To Note:** 
 The SonnetLab Toolbox scripts included here are slightly edited in order to work with the author’s settings and the latest versions of Sonnet. The edits made are as follows:
 
