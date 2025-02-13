@@ -1,4 +1,4 @@
- cff-version: 1.2.0
+cff-version: 1.2.0
 message: "If you use any of the scripts provided with AEM Lk, please cite the authors as shown below. If any of the scripts are used in academic work, please cite the following paper: doi.org/10.1007/s10909-024-03103-3"
 authors:
 - family-names: "McAleer"
