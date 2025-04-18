@@ -57,6 +57,7 @@ In *EM Options* > *Advanced Options*
 ### **How to Use AEM Lk**
 AEM Lk is very simple to use and requires; Sonnet geometry files, Measured resonant frequencies and a input txt file.
 1. Open the AEM Lk app in MATLAB.
+2. 
    ![Screenshot 2025-04-18 224759](https://github.com/user-attachments/assets/7b399eac-ebbd-4568-8c70-0210bcbf4e76)
    
 
