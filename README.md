@@ -7,6 +7,7 @@ This repository is the updated version of AEM Lk.
 
 **AEM Lk** automates the extraction of Lk values of MKID pixels for a given set of Sonnet geometry files and measured resonant frequencies using MATLAB, the EM simulation software: Sonnet and the MATLAB Toolbox SonnetLab. This is done by varying the kinetic inductance value (*H/sq) in the Sonnet geometry files and matching the simulated resonance to the measured resonance as close as possible.
 AEM Lk can extract Lk values to an accuracy of +/-0.001 *H/sq. It is important to note as well that the extract Lk values are only estimates and will include effects that influence the resonant frequency of the pixel (i.e. fabrication inaccuracies, dirt on the pixel, etc) 
+AEM Lk also includes an option to calculate the kinetic inductance fraction for each resonator. This is done after extracting the kinetic inductance then setting Lk=0pH/sq. The resonant frequency at Lk=0pH/sq is then used to calculate the kinetic inductance fraction following S.Doyle, 2008 (https://orca.cardiff.ac.uk/id/eprint/54728/). 
 
 It is also recommended that AEM run on a PC with 12 or more threads as CPUs below this have not been tested and may end up in a simulation loop due to slow simulation time.
 
@@ -56,8 +57,8 @@ In *EM Options* > *Advanced Options*
 ### **How to Use AEM Lk**
 AEM Lk is very simple to use and requires; Sonnet geometry files, Measured resonant frequencies and a input txt file.
 1. Open the AEM Lk app in MATLAB.
+   ![Screenshot 2025-04-18 224759](https://github.com/user-attachments/assets/7b399eac-ebbd-4568-8c70-0210bcbf4e76)
    
-   <img width="498" alt="255122604-e65fb3dc-20e8-4830-a4d6-30b5bbd0b54d" src="https://github.com/user-attachments/assets/3c87f401-5a3d-41e0-8a4f-d52f24927a6d">
 
 3. Create a .txt file that contains a list of the **original Sonnet project filenames** and the measured resonant frequencies in the form of the following:
    ![txtfile](https://github.com/scathalmca/AEM-Lk/assets/92909628/22976773-c246-4f27-8f15-710388fc0cf1)
