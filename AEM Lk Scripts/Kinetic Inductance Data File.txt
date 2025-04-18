@@ -1,0 +1,9 @@
+Runtime| Hours: 0  Minutes: 9  Seconds: 40.8214
+Number of Simulations Performed: 24
+Set Accuracy = 0.1pH/sq
+Mean Lk =  24.75pH/sq
+STD =  2.7577pH/sq
+
+|______Design File______|______Corrected File______|______Measured Resonances(MHz)______|______Simulated Resonances(MHz)______|______Kinetic Inductance______|______Simulated Q-Factor______|
+5460.son                  4750.9MHz.son                         4749.8                              4750.90                                26.70                             92628.04
+6387.son                  5998.5MHz.son                           6000                              5998.50                                22.80                             66349.49
